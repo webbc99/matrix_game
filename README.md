@@ -6,9 +6,9 @@ ruby game.rb
 
 You will enter a height and width to create a matrix of 0, e.g.
 
-0 0 0 0
-0 0 0 0
-0 0 0 0
+0 0 0 0\n
+0 0 0 0\n
+0 0 0 0\n
 
 You can then update sections of the matrix by entering the following: Update rows X to Y columns A to B with character Z
 
@@ -22,11 +22,13 @@ And then entering:
 
 Would output the following:
 
-0 0 Y Y
-0 0 Y Y
-0 0 0 0
+0 0 Y Y\n
+0 0 Y Y\n
+0 0 0 0\n
 
 You can continue to update the matrix and check the output.
 
 Note:
 To update a single row or column, saying e.g. Update rows 1 to 1 is valid.
+
+Tests are written with RSpec. To run the tests, first install rspec (gem install rspec) and then just run "rspec" in the spec folder.
