@@ -6,9 +6,12 @@ ruby game.rb
 
 You will enter a height and width to create a matrix of 0, e.g.
 
-0 0 0 0\n
-0 0 0 0\n
-0 0 0 0\n
+0 0 0 0
+
+0 0 0 0
+
+0 0 0 0
+
 
 You can then update sections of the matrix by entering the following: Update rows X to Y columns A to B with character Z
 
@@ -22,9 +25,12 @@ And then entering:
 
 Would output the following:
 
-0 0 Y Y\n
-0 0 Y Y\n
-0 0 0 0\n
+0 0 Y Y
+
+0 0 Y Y
+
+0 0 0 0
+
 
 You can continue to update the matrix and check the output.
 
